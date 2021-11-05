@@ -1,0 +1,125 @@
+# General - Character
+Name: Vinny Francesco
+Character_Level: 8
+Race: Half-elf
+Class: Figther
+Background: Champion
+
+# General - Character Combat Stats
+Armor Class: 16
+Initiative: Dex_Mod + 5
+Speed: 30
+# Health/Hit Points
+HP: 52
+# Temporary Hit Points
+THP: 0
+
+# Additions_skills
+--prof_bonus: 3
+Passive_Perception: 11
+
+# Abilities and modifiers
+--str: 18
+str_Mod: 4
+--dex: 14
+dex_Mod: 2
+--con: 10
+con_Mod: 0
+--int: 10
+int_Mod: 0
+--wis: 13
+wis_Mod: 1
+--cha: 17
+cha_Mod: 3
+
+# Saving Throws
+--str_saving_throw: 4
+--dex_saving_throw: 2
+--con_saving_throw: 0
+--int_saving_throw: 0
+--wis_saving_throw: 1
+--cha_saving_throw: 3
+
+# Expertise in the following skills
+expertise_skills: str_saving_throw, dex_saving_throw
+
+# Skills
+--acrobatics: 2
+--animal_handling: 1
+--arcana: 0
+--athletics: 4
+Athletics_doubled_proficiency_bonus: Proficiency_Bonus * 2
+--deception: 3
+--history: 0
+--insight: 1
+--intimidation: 3
+--investigation: 0
+--medicine: 1
+--nature: 0
+--perception: 1
+--performance: 3
+--persuasion: 3
+--religion: 0
+--sleight_of_Hand: 2
+--stealth: 2
+--survival: 1
+
+# Attack and Spellcasting
+--weapon_1: Long Bow
+weapon_1_attackBonus: 6
+weapon_1_damage: 1d8
+weapon_1_damage_add: 2
+--weapon_2: Long Sword
+weapon_2_attackBonus: 7
+weapon_2_damage: 1d8
+weapon_2_damage_add: 4
+--weapon_3: Hidden wrist blade
+weapon_3_attackBonus: 4
+weapon_3_damage: 1d6
+weapon_3_damage_add: 4
+
+# Features and Traits
+# Level 1
+Feat_fighting_style:  Dueling
+Feat_fighting_style_desc: When you are weilding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+Feat_second_wind: 1d10 + Character_Level
+Feat_second_wind_desc: You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10+character level. Once this feature is used, you must finishe a short or a long rest before using this again.
+# Level 2
+Feat_action_surge: Take 1 additional bonus and regular action.
+feat_action_surge_desc: Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short or a long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.
+# Level 3
+feat_martial_archetype: Champion
+feat_martial_archetype_desc_1: Improved Critical - Beginning when you choose this archetype at 3rd level, your weapon attacks scores a critical hit on a roll of 19 or 20, for d20.
+# Level 7
+feat_martial_archetype_desc_2: Remarkable Athlete - Starting at 7th level, you can add half your proficiency bonus to any strength, dexterity or constituation check you make that doesn't already use your proficiency bonus. In addition, when you make a running long jump, the distance you can cover increases by a number of feat equal to your strength modifier.
+feat_extra_attack: 1
+# Level 5
+feat_extra_attack_desc: Beginning level 5, you can attack twice in total, instead of once as an action on your turn. The number of attacks increases to 3 at 11th level, and 4 when reaching 20th class level.
+
+# Other Proficiencies and Languages
+Dark vision: Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+Fey ancestry: You have advantage on saving throws against being charmed, and magic can't put you to sleep.
+Skill versatility: You can proficience in two skills of your choice.
+Languages: Common, Elvish and Dwarvish
+Feat_1_alert: Can't be surprised when unconscious and enemies don't gain advantage on attack rolls against you.
+Feat_2_prodigy: One skill proficiency, one tool proficiency and fluency in one language of your choice. Choose one skill in which you have proficiency and gain expertise. Meaning, proficiency bonus is doubled for that check.
+
+# Equipment
+Equipment_armor: Chain mail armor
+Equipment_armor_desc: Disadvantage on stealth
+Equipment_magic_items_rare_1: Pauldrons of Wailing
+Equipment_magic_items_rare_1_desc: When the attuned creature uses their Second Wind ability, all creatures in a 10ft radius must make a DC 17 Wisdom saving throw, or become frightened for 1 round.
+Equipment_magic_items_uncommon_1: Belt of Deflection
+Equipment_magic_items_uncommon_1_desc: Tiger Fur: The wearer has resistance to slashing damage.
+Equipment_magic_items_uncommon_2: Adamantine Armor
+Equipment_magic_items_uncommon_2_desc: Tiger Fur: Critical hits becom normal hits (immunity: critical hits, warding, combat)
+Equipment_magic_items_common_1: Boots of False Tracks
+Equipment_magic_items_common_1_desc: While wearing the boots, you can choose to have them leave tracks like those of another kind of humanoid of your size.
+Equipment_magic_items_common_2: Feather Token (Whip)
+Equipment_magic_items_common_2_desc: You can use an action to throw the token to a point within 10 feet of you. The token disappears and a floating whip takes its place. You can then use a bonus action to make a melee spell attack against a creater within 10 feet of the whip with an attack bonus of +9. On hit, the target takes 1d6+5 force damage. As a bonus action, you can direct the whipe to fly up to 20 feet and repeat the attack against a creature within 10 feet on your turn. The whip disappears after 1 hour, when you use an action to dismiss it, or when you are incapacitated or die.
+Equipment_magic_items_common_3: Unbreakable arrow
+Equipment_magic_items_common_3_desc: This arrow cannot be borken, unless within an anti-magic field.
+Equipment_magic_items_common_4: Spellshard
+Equipment_magic_items_common_4_desc: The shard can hold the equivelent of one book that's no more than 320 pages long. When the shard is created, the creator can set a passphrase to access the stored information. You can use an action to open your mind to the shard, seeing its content in your mind. On subsequent rounds, reading the text or scribing new text on blank "pages" in the shard requires concentration.
+
+# eof
